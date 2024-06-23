@@ -12,8 +12,7 @@ from dotenv import load_dotenv
 load_dotenv()
 os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
-# google_api_key = "AIzaSyBq1-QAQd3C1waCrw88bLGhqC_UROOzjfc"
-# genai.configure(api_key="AIzaSyBq1-QAQd3C1waCrw88bLGhqC_UROOzjfc")
+
 
 import csv
 
